@@ -76,6 +76,8 @@ typedef unsigned char uint8_t;
 #define uthash_free(ptr,sz) free(ptr)     /* free fcn                        */
 #endif
 
+#define _mosquitto_free(ptr)
+
 #ifndef uthash_noexpand_fyi
 #define uthash_noexpand_fyi(tbl)          /* can be defined to log noexpand  */
 #endif
